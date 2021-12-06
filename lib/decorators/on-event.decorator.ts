@@ -1,0 +1,28 @@
+import { SetMetadata } from '@nestjs/common';
+import { EVENT_LISTENER_METADATA } from '../constants';
+
+/**
+ * `@OnEvent` decorator metadata
+ */
+ export interface OnEventMetadata {
+  /**
+   * Event (name or pattern) to subscribe to.
+   */
+  event: string;
+  /**
+   * Subscription options.
+   */
+  options?: Record<string, unknown>;
+}
+
+/**
+ * Event listener decorator.
+ * Subscribes to events based on the specified name(s).
+ *
+ * @param name event to subscribe to
+ */
+export const OnEvent = (
+  event: string,
+  options?: Record<string, unknown>
+): MethodDecorator =>
+  SetMetadata(EVENT_LISTENER_METADATA, { event, options } as OnEventMetadata);
