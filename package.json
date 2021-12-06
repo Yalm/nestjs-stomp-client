@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-stomp-client",
+  "name": "nestjs-stomp",
   "version": "0.0.1-beta.1",
   "description": "",
   "main": "dist/index.js",
@@ -8,10 +8,14 @@
     "build": "tsc",
     "format": "prettier --write **/*.{ts,json}",
     "prepublish:npm": "npm run build",
-    "publish:npm": "npm publish ./dist"
+    "publish:npm": "npm publish ./dist --access public"
   },
   "author": "Yalm",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yalm/nestjs-stomp"
+  },
   "url": "https://github.com/yalm/nestjs-stomp#readme",
   "devDependencies": {
     "@nestjs/common": "8.2.0",
