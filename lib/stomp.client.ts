@@ -63,7 +63,7 @@ export interface StompClientOptions {
   protocolVersion?: ProtocolVersion;
   vhost?: string;
   reconnectOpts?: ReconnectOptions;
-  tlsOpts: ConnectionOptions;
+  tlsOpts?: ConnectionOptions;
 }
 
 export class StompClient extends EventEmitter {
