@@ -10,6 +10,15 @@
     "prepublish:npm": "npm run build",
     "publish:npm": "npm publish ./dist --access public"
   },
+  "keywords": [
+    "nest-stomp",
+    "nestjs-stomp",
+    "@nestjs/stomp",
+    "@nestjs/stomp-client",
+    "stomp",
+    "stomp-client",
+    "nestjs"
+  ],
   "author": "Yalm",
   "license": "MIT",
   "repository": {
