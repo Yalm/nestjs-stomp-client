@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-stomp",
+  "name": "nestjs-stomp-client",
   "version": "0.0.1-beta.1",
   "description": "",
   "main": "dist/index.js",
@@ -23,9 +23,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yalm/nestjs-stomp"
+    "url": "https://github.com/yalm/nestjs-stomp-client"
   },
-  "url": "https://github.com/yalm/nestjs-stomp#readme",
+  "url": "https://github.com/yalm/nestjs-stomp-client#readme",
   "devDependencies": {
     "@nestjs/common": "8.2.0",
     "@nestjs/core": "8.2.0",
