@@ -1,6 +1,6 @@
 {
   "name": "nestjs-stomp-client",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
